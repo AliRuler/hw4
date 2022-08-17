@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        
+        header {
+            background-color: #365898;
+            width: 100vw;
+            height: 15vh;
+            display: flex;
+            padding: 2em 10%;
+            justify-content: space-between;
+        }
+        
+        section {
+            padding: 2em 10%;
+            display: flex;
+            width: 100vw;
+            /* height: 85vh; */
+            justify-content: space-between;
+        }
+        
+        svg {
+            color: #fff;
+            /* font-size: 20px; */
+            fill: currentColor;
+        }
+        /* .container {
+            width: 80%;
+            height: 100vh;
+            margin: 0 auto;
+        } */
+        
+        .login_label {
+            color: #fff;
+            display: block;
+        }
+        
+        .login_input {
+            height: 2em;
+            margin: .5em 1em 1em 0;
+        }
+        
+        .col1,
+        .col2 {
+            /* width: 50%; */
+            float: left;
+        }
+        
+        .login_button {
+            display: inline;
+            float: left;
+            background-color: #2A7AB8;
+            width: 50px;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 23px;
+            color: #fff;
+        }
+        
+        .login {
+            float: left;
+        }
+        
+        .col {
+            float: left;
+            width: 50%;
+        }
+        
+        section {
+            float: left;
+        }
+        
+        .c3 {
+            font-size: 2em;
+            color: #2A7AB8;
+        }
+        
+        h1 {
+            font-size: 3em;
+        }
+        
+        .c4 {
+            padding: 0 5%;
+        }
+        
+        .pass {
+            width: 100%;
+            margin: 1em 0;
+        }
+        
+        .m_ph {
+            width: 100%;
+        }
+        
+        .fn,
+        .sn {
+            width: 49%;
+        }
+        
+        .pass,
+        .m_ph,
+        .fn,
+        .sn {
+            padding: .6em;
+            margin: .5em 0;
+        }
+        
+        .signup {
+            padding: 1em 0;
+            width: 100%;
+        }
+        
+        h3 {
+            margin: .3em 0;
+        }
+        
+        select {
+            padding: .5em;
+        }
+        
+        .creat_a {
+            padding: 1em;
+            background-color: #62944D;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+        }
+    </style>
+
+    <div class="container">
+        <header>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 
+                52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08
+                124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+            </svg>
+            <div class="login">
+
+                <form action="">
+                    <div class="col1">
+
+                        <label class="login_label" for="">Email or Phone</label>
+                        <input class="login_input" type="email / phone">
+                    </div>
+                    <div class="col2">
+
+                        <label class="login_label" for="">Password</label>
+                        <input class="login_input" type="password"> <br><span style="color: #fff;"> 
+                            forgotten acount?</span>
+                    </div>
+                    <button class="login_button">
+                        login
+                    </button>
+                </form>
+            </div>
+        </header>
+        <section>
+            <div class="col c3">Facebook helps you connect and share with the peaple in your peaple in your life.</div>
+            <div class="col c4">
+                <h1>creat an account</h1>
+                <h3>it's free and always will be</h3>
+                <form class="signup" action="">
+                    <input class="fn" type="text" placeholder="firstname">
+                    <input class="sn" type="text" placeholder="surestname">
+                    <input class="m_ph" type="email / phone" placeholder="email or phonenumber">
+                    <input class="pass" type="password" placeholder="password">
+                    <h3>Birthday</h3>
+                    <select id="cars" name="cars">
+                        <option >1</option>
+                        <option >2</option>
+                        <option >3</option>
+                        <option >4</option>
+                        <option >5</option>
+                        <option >6</option>
+                        <option >7</option>
+                        <option >8</option>
+                        <option >9</option>
+                        <option >11</option>
+                        <option >12</option>
+                        <option >13</option>
+                        <option >14</option>
+                        <option >15</option>
+                        <option >16</option>
+                        <option >17</option>
+                        <option >18</option>
+                        <option >19</option>
+                        <option >20</option>
+                        <option >21</option>
+                        <option >22</option>
+                    </select>
+                    <select id="cars" name="cars">
+                        <option >1</option>
+                        <option >2</option>
+                        <option >3</option>
+                        <option >4</option>
+                        <option >5</option>
+                        <option >6</option>
+                        <option >7</option>
+                        <option >8</option>
+                        <option >9</option>
+                        <option >11</option>
+                        <option >12</option>
+                    </select>
+                    <select id="cars" name="cars">
+                        <option >2001</option>
+                        <option >2002</option>
+                        <option >2003</option>
+                        <option >2004</option>
+                        <option >2005</option>
+                        <option >2006</option>
+                        <option >2007</option>
+                        <option >2008</option>
+                        <option >2009</option>
+                        <option >2011</option>
+                        <option >2012</option>
+                        <option >2013</option>
+                        <option >2014</option>
+                        <option >2015</option>
+                        <option >2016</option>
+                        <option >2017</option>
+                        <option >2018</option>
+                        <option >2019</option>
+                        <option >2020</option>
+                        <option >2021</option>
+                        <option >2022</option>
+                    </select>
+                    <span style="color: #2A7AB8;font-size: .8em;margin: 1em;">why do I need to provide my birthday?</span>
+                </form>
+                <label for="">female</label>
+                <input type="radio" name="sex" id="">
+                <label for="">male</label>
+                <input type="radio" name="sex" id=""><br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur beatae magni nemo molestiae ipsum harum accusantium fuga et doloremque! Odit similique unde, accusantium reiciendis harum repudiandae sed eligendi cum assumenda.</p>
+                <br>
+                <button class="creat_a">creat acount</button>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
